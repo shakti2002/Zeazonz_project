@@ -1,0 +1,89 @@
+/* Container for the timeline */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons for view toggle */
+.view-toggle-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.view-toggle-buttons button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.view-toggle-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Selector container for year and month */
+.selector-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.selector-container .form-control {
+  width: 48%;
+}
+
+/* Navigation buttons (Previous, Today, Next) */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navigation-buttons button:hover {
+  background-color: #218838;
+}
+
+/* Timeline chart styling */
+.timeline-chart {
+  overflow-x: auto;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.timeline-item {
+  background-color: #17a2b8;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Tooltip styling */
+.tooltip-container {
+  background-color: #343a40;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
